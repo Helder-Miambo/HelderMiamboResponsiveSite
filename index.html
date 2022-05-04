@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>helder Miambo</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header>
+
+    <div class="user">
+        <img src="helder.jpg">
+        <h3 class="name">Helder Miambo</h3>
+        <p class="post">front end developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a  href="#Home"><i class="fas fa-home"></i></a></li>
+            <li><a  href="#Sobre"><i class="fas fa-address-card"></i></a></li> 
+            <li><a  href="#Portifolio"><i class="fa fa-image"></i></a></li>
+            <li><a  href="#Habilidades" ><i class="fas fa-desktop"></i></a></li>
+            <li><a  href="#Serviços"><i class="fas fa-wrench"></i></a></li>
+            <li><a href="#Musica"> <i class="fas fa-music"></i></a></li>
+            <li><a href="#Filme"> <i class="fas fa-film"></i></a></li>
+            <li><a href="#Contactos"> <i class="fas fa-address-book"></i></a></li>
+           
+            
+        </ul>
+    </nav>
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- Home section starts -->
+
+<section class="Home" id="Home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Helder Miambo</span></h1>
+    <p>Tenho 22 anos de idade, sou solteiro. Resido no baiiro Mateque, E estou numa formacao no instituto medio apolitecnico de engenharia e negocios escolhi o curso de informatica e esse e o meu ultimo ano.
+    </p>
+    <a href="#Sobre"><button class="btn">Sobre me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- Home section ends -->
+
+<!-- Sobre section starts-->
+
+
+<section class="Sobre" id="Sobre">
+
+    
+    <h1 class="heading"> <span>Sobre</span> me </h1>
+    
+    <div class="row">
+
+        <div class="info">
+            <h3> <span> name : </span> Helder </h3>
+            <h3> <span> age : </span> 22</h3>
+            <h3> <span> qualification : </span> IT </h3>
+            <h3> <span> post : </span> front end developer </h3>
+            <h3> <span> language : </span> Js </h3>
+            <a href="Cv word.rtf"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+        </div>
+
+
+        <div class="counter">
+
+            <div class="box">
+                <span>2+</span>
+                <h3>years of experiencia</h3>
+            </div>
+
+            <div class="box">
+                <span>100+</span>
+                <h3>project completed</h3>
+            </div>
+
+            <div class="box">
+                <span>430+</span>
+                <h3>happy clients</h3>
+            </div>
+
+            <div class="box">
+                <span>12+</span>
+                <h3>awards won</h3>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Sobre section ends-->
+
+<!-- Portifolio section starts-->
+
+<section  id="Portifolio">
+
+<h1 class="heading"> Portifolio </h1>
+
+<div class="box-container">
+
+   
+
+    <img class="mySlides w3-animate-fading" src="digital.jfif">
+    <img class="mySlides w3-animate-fading" src="loggi.png">
+    <img class="mySlides w3-animate-fading" src="infodias.png">
+    <img class="mySlides w3-animate-fading" src="mrn.jfif">
+    <img class="mySlides w3-animate-fading" src="outstone.jfif">
+    <img class="mySlides w3-animate-fading" src="xpress.png">
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 1000);    
+        }
+        </script>
+
+
+   
+</div>
+
+</section>
+
+<!-- Portifolio section ends -->
+
+<!-- Habilidades section starts -->
+
+<section class="Habilidades" id="Habilidades">
+
+<h1 class="heading"> Habilidades</h1>
+   <div class="row">
+
+        <div class="info2">
+           
+            
+            
+            <div class="box-1">
+              
+                
+                <p CLASS="p1">Web Design
+                <br>
+                <div class="skill-container">
+                    <div class="skill Web"></div>
+                    <p class="perc">80%</p>  
+                    
+           </div>
+                </p>  
+
+                <p CLASS="p1">JavaScript
+                    <br>
+                    <div class="skill-container">
+                        <div class="skill Js"></div>  
+                        <p class="perc1">50%</p>  
+               </div>
+
+               <p CLASS="p1">MYSQL
+                <br>
+                <div class="skill-container">
+                    <div class="skill Mysql"></div>  
+                    <p class="perc2">70%</p>  
+                    
+           </div>
+   </div>
+</section>
+
+<!-- Habilidades section ends -->
+
+
+<!-- Serviços section starts -->
+
+<section class="Serviços" id="Serviços">
+
+    <h1 class="heading"> Serviços</h1>
+       <div class="row">
+    
+          
+        <div class="card-container">
+            <div class="cardBox">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <h3>Sistema Operativo</h3>
+                <br>
+                <p>
+                    optimização do sistema operativo e organização de menús,etc
+                    
+                   
+                </p>
+            
+                        
+                </div>
+                <div class="cardBox">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <h3>Instalacao de software</h3>
+                    <br>
+                    <p>
+                        
+                    Consiste em instalar programas essenciais para bom funcioname da maquina
+                    </p>
+                
+                            
+                    </div>
+                    <div class="cardBox">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <h3>Manutenção</h3>
+                        <br>
+                        <p>
+                            A manutenção inclui hardware e software do computador
+                        </p>
+                    
+                                
+                        </div>
+                
+       </div>
+
+    </section>
+
+<!-- Musica section starts -->
+
+<section class="Musica" id="Musica">
+
+    <h1 class="heading"> Musica</h1>
+
+   
+    <br>
+     <br>
+     
+    <div class="box-container">
+        <h3> <span> Artist: </span> Msaki_ft_Caiiro </h3>
+        <h3> <span> Title: </span> Chem Trails </h3>
+        <h4>----------------------------------------------------------------------------</h4>
+        <br>
+        
+        <audio controls>
+            <source src="https://live.zamusics.live/uploads/mp3-nov-2021/Msaki_-_Chem_Trails_ft_Caiiro.mp3" type="audio/mp3">
+         
+         </audio>
+      
+         
+         
+       
+
+        <br>
+         <div class="box-container">
+            <h3> <span> Artist: </span> Caiiro </h3>
+            <h3> <span> Title: </span> Yawela </h3>
+            <h4>----------------------------------------------------------------------------</h4>
+
+            <br>
+
+         <audio controls>
+            <source src="https://live.zamusics.live/uploads/mp3-sep-2020/Caiiro_-_Yawela-zamusic.org-.mp3" type="audio/mp3">
+         
+         </audio>
+         
+
+        
+          <div class="box-container">
+              <h3> <span> Artist: </span> Angelique_Kidjo(Shimza Remix) </h3>
+              <h3> <span> Title: </span> Agolo</h3>
+              <h4>----------------------------------------------------------------------------</h4>
+
+            <br>
+
+         <audio controls>
+            <source src="https://live.zamusics.site/uploads/mp3-jan-2022/Angelique_Kidjo_-_Agolo_Shimza_Remix-zamusic.org-.mp3" type="audio/mp3">
+         </audio>
+         
+         
+
+
+          <div class="box-container">
+            <h3> <span> Artist: </span> Reinaldo-silva</h3>
+            <h3> <span> Title: </span> Tandi </h3>
+            <h4>----------------------------------------------------------------------------</h4>
+
+            <br>
+
+         <audio controls>
+          <source src="https://zakavibes.com/wp-content/uploads/2022/03/Reinaldo_Silva_-_Tandi.mp3?_=1" type="audio/mp3">
+         </audio>
+
+
+         
+
+
+          <div class="box-container">
+             <h3> <span> Artist: </span> Kabza_De_Small_-Ft_Amu_Faku</h3>
+             <h3> <span> Title: </span> Asibe_Happy</h3>
+             <h4>----------------------------------------------------------------------------</h4>
+
+            <br>
+            
+         <audio controls> 
+         <source src="https://file.novasongmusica.com/wp-content/uploads/2021/11/Kabza-De-Small-Asibe-Happy-feat.-Ami-Faku.mp3" type="audio/mp3">
+        
+        </audio>
+
+        
+    </div>
+    
+    
+    </section>
+
+
+
+<!-- Musica section ends -->
+
+
+<!-- Filme section starts-->
+
+<section class="Filme" id="Filme">
+
+    <h1 class="heading"> <span>Filme</span></h1>
+       <div class="row">
+    
+            <div class="info4">
+                
+                <br>
+                <br>
+                <iframe width="350" height="215" src="https://www.youtube.com/embed/7QJc_plxa9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <iframe width="350" height="215" src="https://www.youtube.com/embed/_Xc6NbF3K3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="350" height="215" src="https://www.youtube.com/embed/qqPltXnhSkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
+                <iframe width="350" height="215" src="https://www.youtube.com/embed/0G6axE1bThE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="350" height="215" src="https://www.youtube.com/embed/A5y7YpjSpio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 <iframe width="350" height="215" src="https://www.youtube.com/embed/PKAAbDrbcng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+                 
+       </div>
+
+    </section>
+
+
+
+<!-- Filme section ends-->
+
+
+
+<!-- Serviços section ends -->
+
+
+<!-- Contacto section starts -->
+
+<section class="Contacto" id="Contacto">
+
+<h1 class="heading"> <span>Contacto </span></h1>
+
+<div class="row">
+
+    <div class="content">
+
+    <h3 class="title">Contacto info</h3>
+
+    <div class="info6">
+        <h3> <i class="fas fa-envelope"></i> heldermiambo66@gmail.com </h3>
+        <h3> <i class="fas fa-phone"></i> +258-841-111-111</h3>
+        <h3> <i class="fas fa-phone"></i> +258-842-222-222</h3>
+        <h3> <i class="fas fa-map-marker-alt"></i> maputo, mozambique - 400104.</h3>
+    </div>
+    
+</div>
+<form action="https://gmail.us14.list-manage.com/subscribe/post?u=b98d47b02f0b900be2c373291&amp;id=be165eea3f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <input type="name" value="" name="FNAME" class="box" id="mce-FNAME" placeholder="name">
+    <input type="email" value="" name="EMAIL" class="box email" id="mce-EMAIL" placeholder="email">
+    
+    <textarea value="" name="MMERGE2" id="mce-MMERGE2" cols="30" rows="10" class="box message" placeholder="message">
+    </textarea>
+    <button type="submit" value="Send" name="Send" id="mc-embedded-Send" class="btn">send <i class="fas fa-paper-plane"></i> </button>
+    
+  
+</form>
+
+</div>
+
+
+
+</section>
+
+
+<!-- Contacto section ends -->
+
+<!-- scroll top button-->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+    <!-- jquery cdn link -->
+    <script src="<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+   
+    <!-- custom js file link -->
+    
+
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MMERGE2';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+    
+    </script>
+
+
+</body>
+</html>
